@@ -34,7 +34,6 @@ a{
 /* INFO */
 .my_card .my_card-info{
     width: 100%;
-    background-color: pink;
     color: gray;
     font-size: 18px;
 }
@@ -61,7 +60,6 @@ a{
 
 /* PRICE */
 .my_card .my_card-price{
-    background-color: lightblue;
 }
 .my_card .my_card-price .old-price{
     text-decoration: line-through;
@@ -77,7 +75,6 @@ a{
 
 /* CALL TO ACTION */
 .my_card .my_card-call-to-action{
-    background-color: lightgreen;
     text-align: right;
 }
 .my_card .call-to-action-btn{
@@ -86,4 +83,33 @@ a{
     border-radius: 15px;
     font-weight: 600;
     font-size: 20px;
+}
+
+/* LIST */
+.my_card .my_card-list{
+    margin-bottom: 1.5rem;
+}
+.my_card .my_card-list *{
+    vertical-align: middle;
+}
+.my_card .my_card-list ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.my_card .my_card-list li{
+    font-size: 19px;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+.my_card .my_card-list li:first-child{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* FOOTER */
+footer *{
+    text-align: center;
+    font-size: 18px;
+    margin:0;
 }

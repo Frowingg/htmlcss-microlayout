@@ -68,10 +68,22 @@ a{
     color: red;
 }
 .my_card .my_card-price .price{
-    text-decoration: line-through;
     font-size: 30px;
     font-weight: 600;
 }
 .my_card .my_card-price .site-link a{
     font-size: 18px;
+}
+
+/* CALL TO ACTION */
+.my_card .my_card-call-to-action{
+    background-color: lightgreen;
+    text-align: right;
+}
+.my_card .call-to-action-btn{
+    width: max-content;
+    height: 50px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 20px;
 }

@@ -4,7 +4,11 @@
     padding: 0;
     margin: 0;
 }
-
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: gray;
+}
 /* CARD IMG */
 .my_card{
     width: 100%;
@@ -31,13 +35,43 @@
 .my_card .my_card-info{
     width: 100%;
     background-color: pink;
-    height: 200px;
+    color: gray;
+    font-size: 18px;
 }
-.circle{
+.my_card  .my_card-info .circle{
     width: 1.2rem;
     height: 1.2rem;
     background-color: #00aa6c;
     border-radius: 50%;
     margin-right: 0.01rem;
     display: inline-block;
+    vertical-align: middle;
+}
+.my_card .my_card-info .review{
+    display: inline-block;
+    vertical-align: middle;
+}
+.my_card .my_card-info a{
+    text-decoration: dotted underline;
+}
+.my_card .my_card-info p{
+    text-decoration: dotted underline;
+    margin-bottom: 0.2rem;
+}
+
+/* PRICE */
+.my_card .my_card-price{
+    background-color: lightblue;
+}
+.my_card .my_card-price .old-price{
+    text-decoration: line-through;
+    color: red;
+}
+.my_card .my_card-price .price{
+    text-decoration: line-through;
+    font-size: 30px;
+    font-weight: 600;
+}
+.my_card .my_card-price .site-link a{
+    font-size: 18px;
 }
